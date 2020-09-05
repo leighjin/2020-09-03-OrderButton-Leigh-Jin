@@ -16,14 +16,18 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        foodOrderLabel.text = "Show Food Price Here"
     }
 
     //here is where IBAction goes
     @IBAction func pizzaButtonPressed(_ sender: UIButton) {
+        print("🍕 Button Pressed.")
+        foodOrderLabel.text = "🍕 Price: $19.99"
     }
     
     @IBAction func burgerButtonPressed(_ sender: UIButton) {
+        print("🍔 Button pressed.")
+        foodOrderLabel.text = "🍔 Price: $15.99"
     }
     
 }

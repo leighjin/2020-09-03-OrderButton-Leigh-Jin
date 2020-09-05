@@ -29,7 +29,7 @@
                                     <action selector="burgerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4jj-ro-3l6"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAk-rf-f8Z">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAk-rf-f8Z">
                                 <rect key="frame" x="10" y="80" width="394" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="N5Z-Dq-qxi"/>
